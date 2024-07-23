@@ -47,19 +47,20 @@ python Inference_M_Adv.py --affine_model experiments/affine --dataset_dir Datase
 ```
 
 ## Main results
-**- Abdominal CT** <br/>
+### Abdominal CT
 <img src = "https://github.com/user-attachments/assets/7c3fc58c-2225-4d8f-806f-1c716b9a0fa1" width="80%" height="80%">
 
-- 3D Visualization <br/>
+- **3D Visualization** <br/>
 <img src = "https://github.com/user-attachments/assets/d8b4073b-2fb2-40de-8148-a22473ded7df" width="80%" height="80%">
 
-- 2D Visualization <br/>
-<img src = "https://github.com/user-attachments/assets/1bef1ba9-63d7-4e3f-9fbb-afd3930413dc" width="80%" height="80%">
+- **2D Visualization** <br/>
+<img src = "https://github.com/user-attachments/assets/c8ffb64a-9f13-4127-8a17-d31246958926" width="80%" height="80%">
 
-**- Brain MRI** <br/>
+
+### Brain MRI
 <img src = "https://github.com/user-attachments/assets/6463d908-9b61-4216-adf3-85976b71a6f7" width="80%" height="80%">
 
-- 2D Visualization <br/>
+- **2D Visualization** <br/>
 <img src = "https://github.com/user-attachments/assets/97d6e91c-9a5d-44e6-9846-4a44a155382b" width="80%" height="80%">
 
 <!-- <img src = "https://github.com/user-attachments/assets/69ac1182-0bed-4e4a-afd4-4a62f55584d5" width="40%" height="40%"> -->
