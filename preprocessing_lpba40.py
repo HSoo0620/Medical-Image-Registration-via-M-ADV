@@ -8,7 +8,6 @@ import scipy.stats as stats
 DEFAULT_CUTOFF = 0.01, 0.99
 STANDARD_RANGE = 0, 100
 
-
 def resample_image(itk_image, out_spacing=(2.0, 2.0, 2.0), is_label=False):
 
     original_spacing = itk_image.GetSpacing()
@@ -188,7 +187,6 @@ def histogram_stardardization_resample_center_crop(mapping,
 
     for i in list(range(1, 41, 1)):
         for j in list(range(1, 41, 1)):
-            # ~~~~~~~~~~~~~~~ images ~~~~~~~~~~~~~~~
             volpath = os.path.join(input_path, 'l{}_to_l{}.nii'.format(str(i), str(j)))
             img_sitk = sitk.ReadImage(str(volpath))
             img_np = sitk.GetArrayFromImage(img_sitk).swapaxes(0, 2)
