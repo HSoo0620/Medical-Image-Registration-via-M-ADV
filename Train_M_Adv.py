@@ -117,7 +117,7 @@ def main():
         updated_lr = round(lr * np.power(1 - (epoch_start) / max_epoch,0.9) ,8)
 
         best_model = torch.load(model_dir + natsorted(os.listdir(model_dir))[-1])['state_dict']
-        print('Model_Trans_Dual-Stream: {} loaded!'.format(natsorted(os.listdir(model_dir))[-1]))
+        print('M_Adv_Model: {} loaded!'.format(natsorted(os.listdir(model_dir))[-1]))
         model.load_state_dict(best_model)
 
     else:
