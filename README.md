@@ -32,7 +32,7 @@ Brain MRI contains 40 T1-weighted MR images annotated with 56 subcortical ROIs. 
 
 ## Training
 - Before training, pre-processing and initial affine registration must be performed.
-  - For pre-processing, reference ```preprocessing.py```.
+  - For pre-processing, reference ```preprocessing_BTCV_1K.py```, ```preprocessing_lpba40.py```.
   - For initial affine registration, reference ```Train_Affine.py```. <br/>
 ```python
 python Train_M_Adv.py \
