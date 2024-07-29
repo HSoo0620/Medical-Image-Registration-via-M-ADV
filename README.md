@@ -3,10 +3,10 @@
 Implement of "Deformable-Medical-Image-Registration-via-Multiveiw-Adversarial-Learning"
 
 ## Registration Network Architecture
-<img src = "https://github.com/user-attachments/assets/c919978b-5544-402b-b7cc-534099103107" width="100%" height="100%">
+<img src = "https://github.com/user-attachments/assets/2255c190-9c5b-4771-b50c-23319cfeabf4" width="100%" height="100%">
 
 ## Multiview Adversarial Learning
-<img src = "https://github.com/user-attachments/assets/ad82f3d7-4bc9-4c1c-b9aa-e3b750f44b85" width="100%" height="100%">
+<img src = "https://github.com/user-attachments/assets/8d8e379c-22a0-402b-877a-9a1415fbb710" width="100%" height="100%">
 
 ## Prerequisites
 - [python==3.8.8](https://www.python.org/)  <br/>
@@ -48,25 +48,25 @@ python Inference_M_Adv.py --affine_model experiments/affine --dataset_dir Datase
 
 ## Main results
 ### Abdominal CT
-<img src = "https://github.com/user-attachments/assets/7c3fc58c-2225-4d8f-806f-1c716b9a0fa1" width="100%" height="100%">
+<img src = "https://github.com/user-attachments/assets/fd745f12-f4ab-4b31-b2e8-796cfd2dc2a7" width="100%" height="100%">
 
 - **3D Visualization** <br/>
-<img src = "https://github.com/user-attachments/assets/d8b4073b-2fb2-40de-8148-a22473ded7df" width="100%" height="100%">
+<img src = "https://github.com/user-attachments/assets/6daa787b-fc89-4c85-8d26-8821bb0e79d2" width="100%" height="100%">
 
 - **2D Visualization** <br/>
 <img src = "https://github.com/user-attachments/assets/c8ffb64a-9f13-4127-8a17-d31246958926" width="100%" height="100%">
 
 
 ### Brain MRI
-<img src = "https://github.com/user-attachments/assets/6463d908-9b61-4216-adf3-85976b71a6f7" width="100%" height="100%">
+<img src = "https://github.com/user-attachments/assets/f2bb6c3e-c5f1-497e-baa5-91d39026ddf4" width="100%" height="100%">
 
 - **2D Visualization** <br/>
-<img src = "https://github.com/user-attachments/assets/97d6e91c-9a5d-44e6-9846-4a44a155382b" width="100%" height="100%">
+<img src = "https://github.com/user-attachments/assets/41f1e238-7695-4463-87e9-adc001378e81" width="100%" height="100%">
 
 <!-- <img src = "https://github.com/user-attachments/assets/69ac1182-0bed-4e4a-afd4-4a62f55584d5" width="40%" height="40%"> -->
 
 ## Ablation Studied
-<img src = "https://github.com/user-attachments/assets/e4caba4c-1acd-43db-8737-3e3154125081" width="100%" height="100%">
+<img src = "https://github.com/user-attachments/assets/9c9c7d42-150a-4547-8b86-e8c5885fd640" width="100%" height="100%">
 
 ## Reference Codes
 - [https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration)
